@@ -1,7 +1,7 @@
 /*
 Theme Name: Toolbox
-Theme URI: http://wordpress.org/extend/themes/toolbox
-Author: Automattic
+Theme URI: https://github.com/rep1946/THE-BLANK-WALL_120512
+Author: REPdesign with full credit to Automattic
 Author URI: http://automattic.com/
 Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
 Version: 1.4
@@ -85,18 +85,21 @@ text-align:center;
 background: url('images/WALL_BG.jpg') repeat 0 0;
 margin: 10% auto 5%;
 }
+
+hgroup{
+	width: 30%;
+}
 /* =Header
 -------------------------------------------------------------- */
 
 #site-title {
 	margin: .67em 0;
-	text-decoration: none;
-	font: bold 2.5em 'Sanchez', serif;
-	font-smooth
+	font: 3em 'Sanchez', serif;
 	white-space: normal;
 	word-spacing: 0;
 	letter-spacing: -.05em;
-}
+	}
+	
 #site-description {
 	font-size: 1em;
 	font-weight: normal;
@@ -104,7 +107,7 @@ margin: 10% auto 5%;
 }
 
 #branding {
-	
+	width: auto;
 }
 /* =Menu
 -------------------------------------------------------------- */
@@ -113,13 +116,15 @@ margin: 10% auto 5%;
 	background: #eee;
 	display: block;
 	float: left;
-	margin: 0 auto 1em;
 	width: auto;
+	z-index: 99999;
+	position: relative;
 }
 #access ul {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+
 }
 #access li {
 	float: left;
@@ -130,8 +135,7 @@ margin: 10% auto 5%;
 	display: block;
 	line-height: 2em;
 	padding: 0 1em;
-	text-decoration: none;
-	font-family: ;
+	font-family: "Verdana", Lucida, Arial, sans-serif;
 	color: #6c533c;
 }
 #access ul ul {
@@ -415,6 +419,8 @@ article.comment {
 
 /* =Type
 -------------------------------------------------------------- */
-h1, h2, h3 {
-	color: #534444;
-	}
+
+a {
+	text-decoration: none;
+	color: #6e6963;
+}

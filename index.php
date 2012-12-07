@@ -16,7 +16,7 @@ get_header(); ?>
 
 		<!-- background logo-->
 		<div id="wrapper">
-		<img src="<?php bloginfo('template_directory'); ?>/images/BG_LOGO.png" alt="Blank Wall" id="Background" width="80%" />
+		<img src="<?php bloginfo('template_directory'); ?>/images/BG_LOGO.png" alt="Blank Wall" id="Background" width="60%" />
 			
 		<div id="primary">
 			<div id="content" role="main">
